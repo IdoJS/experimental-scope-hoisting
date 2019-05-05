@@ -1,0 +1,15 @@
+{
+  "name": "hoistexample-ts",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "parcel build index.js",
+    "build:commonJS": "tsc --module commonjs --target es5 --outDir lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^3.2.4"
+  }
+}

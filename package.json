@@ -1,15 +1,20 @@
 {
   "name": "parcel-experimental-scope-hoisting-issue",
   "version": "1.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "",
-  "main": "index.html",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "lerna build"
   },
   "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.6.1"
+    "lerna": "^3.13.1"
   },
   "keywords": []
 }

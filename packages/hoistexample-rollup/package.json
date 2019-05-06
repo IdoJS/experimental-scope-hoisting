@@ -1,0 +1,13 @@
+{
+  "name": "hoistexample-rollup",
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "lib/index.js",
+  "scripts": {
+    "build:commonJS": "rollup src/index.js --file lib/index.js --format cjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^1.11.3"
+  }
+}

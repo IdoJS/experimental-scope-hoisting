@@ -8,7 +8,8 @@
     "watch:example": "parcel ./test.html"
   },
   "dependencies": {
-    "hoistexample-ts": "^1.0.0"
+    "hoistexample-ts": "^1.0.0",
+    "hoistexample-rollup": "^1.0.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"
